@@ -1,5 +1,5 @@
-// Entornos de prueba: arman el servicio con DAO falsos y datos base (patrón ARRANGE compartido).
-const { FakeUsuarioDao, FakePedidoDao, FakeCatalogoDao, FakeKardexDao, reloj, hasher, tokens } = require('./fakes');
+// Entornos de prueba: arman el servicio con DAO y datos base (patrón ARRANGE compartido).
+const { UsuarioDao, PedidoDao, CatalogoDao, KardexDao, reloj, hasher, tokens } = require('./fakes');
 const AuthService = require('../src/services/AuthService');
 const UsuarioService = require('../src/services/UsuarioService');
 const PedidoService = require('../src/services/PedidoService');
