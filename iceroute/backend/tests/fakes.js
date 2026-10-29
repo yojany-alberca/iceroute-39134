@@ -1,4 +1,4 @@
-// DAO falsos en memoria: permiten probar las reglas de los servicios sin MySQL.
+// DAO en memoria: permiten probar las reglas de los servicios sin MySQL.
 // Propiedad `falla = true` simula la caída de la base de datos (error de infraestructura).
 const UsuarioDao = require('../src/dao/UsuarioDao');
 const PedidoDao = require('../src/dao/PedidoDao');
