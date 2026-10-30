@@ -1,3 +1,5 @@
+   // Casos de prueba y documentación a cargo de Lorena
+   
 import React from 'react';
 import { View, ActivityIndicator } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
