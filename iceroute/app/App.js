@@ -28,6 +28,7 @@ const header = {
 
 const icono = (name) => ({ color, size }) => <Ionicons name={name} size={size} color={color} />;
 
+// Renderiza la barra de navegación inferior adaptada a los permisos del usuario (cliente, repartidor o administrador)
 function Tabs() {
   const { user } = useAuth();
   const screenOptions = { ...header, tabBarActiveTintColor: C.primary, tabBarInactiveTintColor: '#9A9AAE' };
@@ -97,3 +98,4 @@ export default function App() {
     </AuthProvider>
   );
 }
+// Contenedor principal de la aplicación: inicializa la autenticación global y la navegación condicional por roles
